@@ -1,0 +1,10 @@
+[user]
+	name = Sergey Borodulya
+	email = sevrykov.sergey@gmail.com
+
+[include]
+	path = ~/.config/gitconfig/core
+	path = ~/.config/gitconfig/vscode
+
+[includeIf "gitdir/i:~/work/"]
+	path = ~/work/.gitconfig-work

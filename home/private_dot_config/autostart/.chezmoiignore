@@ -1,0 +1,4 @@
+{{ if ne .chezmoi.hostname "zenbook" }}
+pipewire.sh
+pipewire.sh.desktop
+{{ end }}
