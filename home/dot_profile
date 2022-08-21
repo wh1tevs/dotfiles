@@ -1,2 +1,8 @@
-export ZIM_HOME="$ZDOTDIR/zim"
-export VOLTA_HOME=$HOME/volta
+export XDG_CONFIG_HOME=$HOME/.config
+export XDG_DATA_HOME=$HOME/.local/share
+
+export ZDOTDIR=$XDG_CONFIG_HOME/zsh
+export ZIM_HOME=$XDG_CONFIG_HOME/zim
+export VOLTA_HOME=$XDG_DATA_HOME/volta
+
+export SSH_ASKPASS="ksshaskpass"
